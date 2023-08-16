@@ -25,5 +25,5 @@ if __name__ == "__main__":
         sys.exit(0)
 
     except FileNotFoundError:
-        sys.stderr.write(f"Missing {args[1]}\n")
+        sys.stderr.write("Missing {}\n".format(args[1]))
         sys.exit(1)
