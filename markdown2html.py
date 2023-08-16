@@ -2,6 +2,9 @@
 ''' Write a script markdown2html.py that takes an argument 2 strings:
     First argument is the name of the Markdown file
     Second argument is the output file name
+    Please note that all this can be done using an ext python libraby
+    markdown:
+    import markdown
 '''
 
 import sys
