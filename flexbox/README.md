@@ -1,1 +1,2 @@
-# Using flexbox to create responsive design.
+# FLEXBOX
+Using flexbox to create responsive design.
