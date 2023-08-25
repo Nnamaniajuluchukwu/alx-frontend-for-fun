@@ -1,0 +1,70 @@
+:root {
+    --small-font-size: 1.5rem;
+    --medium-font-size: 3rem;
+    --large-font-size: 6rem;
+    --box-position: relative;
+    
+    /* small */
+    --box-small-top: 5rem;
+    --box-small-height: 70px;
+    --box-small-width: 100px;
+
+    /* medium */
+    --box-medium-top: 4rem;
+    --box-medium-height: 90px;
+    --box-medium-width: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.box {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    position: var(--box-position);
+    top: var(--box-small-top);
+    background-color: green;
+    height: var(--box-small-height);
+    width: var(--box-small-width);
+    font-size: var(--small-font-size);
+}
+.box2 {
+    position: var(--box-position);
+    top: var(--box-medium-top);
+    background-color: rgb(104, 199, 236);
+    height: var(--box-medium-height);
+    width: var(--box-medium-width);
+    font-size: var(--medium-font-size);
+}
+.box3 {
+    position: var(--box-position);
+    top: 1rem;
+    background-color: rgb(29, 74, 92);
+    height: 150px;
+    width: 250px;
+    font-size: var(--large-font-size);
+}
+.box4 {
+    position: var(--box-position);
+    top: var(--box-medium-top);
+    background-color: purple;
+    height: var(--box-medium-height);
+    width: var(--box-medium-width);
+    font-size: var(--medium-font-size);
+}
+.box5 {
+    position: var(--box-position);
+    top: var(--box-small-top);
+    height: var(--box-small-height);
+    width: var(--box-small-width);
+    background-color: orange;
+    font-size: var(--small-font-size);
+}
