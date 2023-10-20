@@ -153,7 +153,7 @@
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition-    color, background-color;
+    transition-property: color, background-color;
   }
   
   .button-primary {
@@ -762,7 +762,7 @@
     background: var(--color-primary);
     text-decoration: none;
     transition-duration: 0.3s;
-    transition-    color, background-color;
+    transition-property: color, background-color;
   }
   
   /* Card TESTIMONIAL
