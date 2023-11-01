@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2.5px solid #727272;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: 20%;
+  height: 20rem;
+  padding: 20px;
+}
+
+.icon {
+  margin-top: 1.8em;
+  height:  100%;
+  width: 220px;
+  padding: 50px;
+}
+
+.i-html {
+  background: url('0-sprite.png') no-repeat -30px -40px;
+}
+
+.i-css {
+  background: url('0-sprite.png') no-repeat -320px -40px;
+}
+
+.i-js {
+  background: url('0-sprite.png') no-repeat -610px -40px;
+}
