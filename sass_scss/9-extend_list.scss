@@ -1,0 +1,18 @@
+/* EXTEND LIST */
+%extended {
+	font-size: 12px;
+}
+
+.info {
+	@extend %extended;
+}
+
+.success {
+	color: #00FF00;
+	@extend %extended;
+}
+
+.warning {
+	color: #FF0000;
+	@extend %extended;
+}
