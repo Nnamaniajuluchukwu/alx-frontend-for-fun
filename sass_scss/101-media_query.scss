@@ -1,0 +1,11 @@
+/* MEDIA QUERY */
+$max-wid: 320px;
+
+h1 {
+	font-size: 20px;
+	@media screen and (max-width: $max-wid) {
+		& {
+			font-size: 14px;
+		}
+	}
+}
